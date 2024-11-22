@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Splash Animation with Dots</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script type="module" src="swipe.js"></script>
+</head>
+<body>
+    <div id="splash1" class="splash">
+        <img src="img/Onboarding 2.png" alt="First Splash">
+        <div class="button-container">
+            <button class="skip-button">Skip</button>
+            <button class="continue-button">Continue</button>
+        </div>
+    </div>
+    <div id="splash2" class="splash">
+        <img src="img/1.png" alt="Second Splash">
+        <h1>Newsify</h1>
+        <div class="button-container">
+            <button class="skip-button">Skip</button>
+            <button class="continue-button">Continue</button>
+        </div>
+    </div>
+    <div id="splash3" class="splash">
+        <img src="img/2.png" alt="Third Splash">
+        <h1>Welcome! Let's dive into your account!</h1>
+        <button id="facebook-button">Continue with Facebook</button>
+        <p>Stay Connected, Everywhere, Anytime</p>
+        <p>Welcome to Newsify, your ultimate destination for breaking news, exclusive stories, and tailored content.</p>
+        <div class="button-container">
+            <button class="skip-button">Skip</button>
+            <button class="continue-button">Continue</button>
+        </div>
+    </div>
+    <div class="nav-dots">
+        <span class="dot active" data-target="splash1"></span>
+        <span class="dot" data-target="splash2"></span>
+        <span class="dot" data-target="splash3"></span>
+    </div>
+</body>
+</html>
